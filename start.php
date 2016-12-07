@@ -17,9 +17,6 @@ function charts_api_init() {
     // register a library of helper functions
     elgg_register_library('elgg:charts_api', elgg_get_plugins_path() . 'charts_api/lib/charts_api.php');
     
-    // register css files
-    elgg_register_css('datatables_css', elgg_get_simplecache_url('datatables.css'));
-    
     // register extra css
     elgg_extend_view('elgg.css', 'charts_api/charts_api.css');
     elgg_extend_view('css/admin', 'charts_api/charts_api_admin.css');
