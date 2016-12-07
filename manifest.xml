@@ -3,7 +3,7 @@
     <name>Charts API</name>
     <id>charts_api</id>
     <author>Nikos Lyberakis</author>
-    <version>2.2.1</version>
+    <version>2.2.2</version>
     <category>bundled</category>
     <description>FusionCharts integration on Elgg</description>
     <website>https://github.com/nlybe/</website>
