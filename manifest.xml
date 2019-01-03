@@ -3,15 +3,17 @@
     <name>Charts API</name>
     <id>charts_api</id>
     <author>Nikos Lyberakis</author>
-    <version>2.2.2</version>
+    <version>3.3</version>
     <category>bundled</category>
+    <category>nlybe</category>
     <description>FusionCharts integration on Elgg</description>
+    <repository>https://github.com/nlybe/Elgg-ChartsAPI</repository>
     <website>https://github.com/nlybe/</website>
-    <copyright>(C) Nikos Lyberakis 2012 - 2016</copyright>
+    <copyright>(C) Nikos Lyberakis 2012 - 2019</copyright>
     <license>GNU General Public License version 2</license>
     <requires>
         <type>elgg_release</type>
-        <version>2.1.0</version>
+        <version>3.0</version>
     </requires>
     <activate_on_install>false</activate_on_install>
 </plugin_manifest>

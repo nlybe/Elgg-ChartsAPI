@@ -12,24 +12,20 @@ $ch_data = elgg_extract('ch_data', $vars, '');
 $ch_labels_js = json_encode($ch_labels);
 $ch_data_js = json_encode($ch_data);
 
-echo elgg_view_input('hidden', array(
+echo elgg_view_field([
+    '#type' => 'hidden',
     'id' => 'ch_labels_js',
     'name' => 'ch_labels_js',
     'value' => $ch_labels_js,
-));
+]);
 
-echo elgg_view_input('hidden', array(
+echo elgg_view_field([
+    '#type' => 'hidden',
     'id' => 'ch_data_js',
     'name' => 'ch_data_js',
     'value' => $ch_data_js,
-));
-?>
+]);
 
-<canvas id="myChart" style="max-height: 600px;"></canvas>
+echo elgg_format_element('canvas', ['id' => 'myChart', 'style' => 'max-height: 600px;'], '');
 
-
-<?php
 unset($vars);
-
-
-

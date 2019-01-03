@@ -4,10 +4,8 @@
  * @package charts_api
  */
 
-$lang = array(
+return [
 
     'charts_api' => "Charts API for Elgg",
 
-);
-
-add_translation("en", $lang);
+];
