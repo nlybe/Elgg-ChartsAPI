@@ -1,0 +1,4 @@
+#Ignore files that will need to be changed locally
+/vendor/
+/vendors/
+composer.lock
