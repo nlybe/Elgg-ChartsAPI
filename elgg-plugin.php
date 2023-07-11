@@ -4,7 +4,15 @@
  * @package charts_api
  */
 
+ use ChartsApi\Elgg\Bootstrap;
+
 return [
+    'plugin' => [
+        'name' => 'Charts API',
+		'version' => '4.4',
+		'dependencies' => [],
+	],	
+    'bootstrap' => Bootstrap::class,
     'actions' => [],
     'routes' => [],
     'widgets' => [],

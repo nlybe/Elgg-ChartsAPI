@@ -22,5 +22,8 @@
     },        
     "extra": {
         "installer-name": "charts_api"
-    }
+    },
+	"conflict": {
+		"elgg/elgg": "<4.0"
+	}
 }

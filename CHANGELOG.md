@@ -1,11 +1,17 @@
-### 3.3 (Jan 2017)
+# Change Log
 
-* Upgraded to be compatible with Elgg 3.x
+## 4.4 (June 2023)
 
-### 2.2.2 (Dec 2016)
+- Upgraded for Elgg 4.3.x compatibility
 
-* Fixed: removed unused graphics folder
+## 3.3 (Jan 2017)
 
-### 2.2.1 (Nov 2016)
+- Upgraded to be compatible with Elgg 3.x
 
-* **releases:** Initial release
+## 2.2.2 (Dec 2016)
+
+- Fixed: removed unused graphics folder
+
+## 2.2.1 (Nov 2016)
+
+- Initial release
