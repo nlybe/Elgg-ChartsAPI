@@ -9,7 +9,7 @@
 return [
     'plugin' => [
         'name' => 'Charts API',
-		'version' => '4.4',
+		'version' => '5.5',
 		'dependencies' => [],
 	],	
     'bootstrap' => Bootstrap::class,
